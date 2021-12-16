@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	 crossorigin="anonymous">
+   <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+	<title>DH Flix</title>
+</head>
+
+<body>
+	<header>
+    <!-- Início da Navegação -->
+		<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" id="navbar">
+			<div class="container-fluid d-flex">
+				<a class="navbar-brand" href="index.html">
+          <img src="./img/logoDH.png" alt="Logo DH" width="167" height="48">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>           
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarCollapse">
+              <ul class="navbar-nav mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-danger" aria-current="page" href="#scrollspyHome">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#scrollspyItens">Itens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" href="#scrollspySobre-nos">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" data-bs-toggle="modal" data-bs-target="#login"href="#">Login</a> <!-- Link externo -->
+                </li>
+              </ul>
+            </div>           
+          </div>
+        </nav>
+     
+    </header>
+     <!-- Fim da Navegação --> 
+
+    <main>
+      <!-- Banner -->
+      <div class="position-relative overflow-hidden p-md-5 home-hero d-flex w-100 h-100" id="scrollspyHome">       
+        <div class="col-md-8 p-5 p-lg-5 mx-auto my-auto">
+
+          <h1 class="display-4 fw-normal text-primary"><img src="./img/DHFlix.png" alt="Logo DH Flix"></h1>
+          <p class="lead fw-normal text-light">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+
+          <div class="d-grid d-md-block text-center my-4" >
+            <a class="btn btn-outline-secondary px-5" class="nav-link" href="#scrollspyItens">Explorar</a>
+          </div>
+
+        </div>
+      </div>
+      <!-- Fim do Banner -->
+
+      <!-- Lista de filmes -->
+      <div class="container py-3 text-center" id="scrollspyItens">
+        <h1 class="fw-bold">Itens</h1>
+      </div>
+  <div class="container pb-4">
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 pb-4">
+    <!-- Filme 1 - Joker -->
+  <div class="col">
+    <div class="card ho h-100 border-0 rounded-4 shadow scale-hover">
+      <img src="./img/Filme1.png" class="card-img" alt="...">
+      <div class="card-img-overlay bg-light h-50 mt-auto rounded-4 d-flex flex-column justify-content-between">
+        <div>
+        <h5 class="card-title">Joker</h5>
+        <p class="card-text">O longa-metragem de drama e suspense narra as origens do famoso vilão, em 122 minutos arrepiantes, repletos de reflexões psicológicas e sociais.</p>
+        </div>
+        <div class="d-grid text-center">
+          <a class="btn btn-secondary text-light px-5" href="./filmes/joker.html">Abrir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Filme 2 - After -->
+  <div class="col">
+    <div class="card h-100 border-0 rounded-4 shadow scale-hover">
+      <img src="./img/Filme2.png" class="card-img" alt="...">
+      <div class="card-img-overlay bg-light h-50 mt-auto rounded-4 d-flex flex-column justify-content-between">
+        <h5 class="card-title">After</h5>
+        <p class="card-text">After segue a história de autodescoberta e despertar sexual de Tessa Young, uma estudante de 18 anos, que sai de casa onde mora com a mãe.</p>
+        <div class="d-grid text-center">
+          <a class="btn btn-secondary text-light px-5" href="./filmes/after.html">Abrir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Filme 3 - Captã Marvel -->
+  <div class="col">
+    <div class="card h-100 border-0 rounded-4 shadow scale-hover">
+      <img src="./img/Filme3.png" class="card-img" alt="...">
+      <div class="card-img-overlay bg-light h-50 mt-auto rounded-4 d-flex flex-column justify-content-between">       
+        <h5 class="card-title">Captain Marvel</h5>
+        <p class="card-text">Criada em 1968 pelo roteirista Roy Thomas e, pelo desenhista Gene Colan, Carol Danvers tornou-se uma heroína após a explosão.</p> 
+        <div class="d-grid text-center">
+          <a class="btn btn-secondary text-light px-5" href="./filmes/cap-marvel.html">Abrir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pb-4">
+  <!-- Filme 4 - Dora -->
+  <div class="col">
+    <div class="card h-100 border-0 rounded-4 shadow scale-hover">
+      <img src="./img/Filme4.png" class="card-img" alt="...">
+      <div class="card-img-overlay bg-light h-50 mt-auto rounded-4 d-flex flex-column justify-content-between">
+        <div>
+        <h5 class="card-title">Dora</h5>
+        <p class="card-text">Dirigido por Sam Mendes, o filme transcorre em apenas dois planos-sequência. “Dora e A Cidade Perdida”</p>
+        </div>
+        <div class="d-grid text-center">
+          <a class="btn btn-secondary text-light px-5" href="./filmes/dora.html">Abrir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Filme 5 - 1917 -->
+  <div class="col">
+    <div class="card h-100 border-0 rounded-4 shadow scale-hover">
+      <img src="./img/Filme5.png" class="card-img" alt="...">
+      <div class="card-img-overlay bg-light h-50 mt-auto rounded-4 d-flex flex-column justify-content-between">
+        <h5 class="card-title">1917</h5>
+        <p class="card-text">Uma história contada a Mendes por seu avô paterno, narra a história de dois jovens soldados britânicos durante a Primeira Guerra Mundial.</p>
+        <div class="d-grid text-center">
+          <a class="btn btn-secondary text-light px-5" href="./filmes/1917.html">Abrir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Filme 6 - Thor -->
+  <div class="col">
+    <div class="card h-100 border-0 rounded-4 shadow scale-hover">
+      <img src="./img/Filme6.png" class="card-img" alt="...">
+      <div class="card-img-overlay bg-light h-50 mt-auto rounded-4 d-flex flex-column justify-content-between">       
+        <h5 class="card-title">Thor</h5>
+        <p class="card-text">Thor estava prestes a receber o comando de Asgard das mãos de seu pai Odin quando forças inimigas quebraram um acordo de paz.</p> 
+        <div class="d-grid text-center">
+          <a class="btn btn-secondary text-light px-5" href="./filmes/thor.html">Abrir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- Fim da Lista de Filmes -->
+
+<!-- Modal -->
+		<div class="modal fade mx-auto" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+			<div class="modal-dialog mx-auto">
+				<div class="modal-content p-4">
+					<div class="modal-header border-0"> 
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					
+					<div class="modal-body">
+						<div class="w-100 text-center">
+							<a class="navbar-brand" href="index.html">
+							<img src="./img/logoDH.png" alt="DH" width="167" height="48">
+							</a>
+						</div>
+
+						<form>
+							<div class="mb-3">
+								<label for="exampleInputEmail1" class="form-label">email</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							</div>
+							
+							<div class="mb-3">
+								<label for="exampleInputPassword1" class="form-label">senha</label>
+								<input type="password" class="form-control" id="exampleInputPassword1">
+							</div>
+						</form>
+					</div>
+					
+					<div class="modal-footer border-0">
+						<div class="d-grid w-100">
+						<button type="submit" class="btn btn-secondary text-light px-5">Entrar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- fim modal -->
+
+
+
+      
+</main>
+
+  <!-- Início do Rodapé -->
+
+  <footer class="text-white bg-dark">
+   
+    <!-- Grid container -->
+
+    <div class="container p-4" id="scrollspySobre-nos">
+
+      <!-- Grid row -->
+      <div class="row mt-4">
+        <!-- Grid column -->
+        <div class="col-12 text-start col-md-4 text-md-start py-4">
+          <h5 class="text-uppercase mb-4">Marcelo Alencar</h5>
+
+          <p>
+            Responsável pelo desenvolvimento do Header e pesquisa na documentação de bootstrap para encontrar a solução do projeto proposto.
+          </p>
+
+          <div class="mt-4">
+            <!-- Linkedin -->
+            <a type="button" class="btn btn-floating btn-lg" href="http://linkedin.com/in/marcelo-alencar-damacena-21a7aa227"><img class="fab fa-linkedin" src="./img/in.png"></a>
+            <!-- GitHub -->
+            <a type="button" class="btn btn-floating btn-lg" href="https://github.com/Marcelinho-spl"><img class="fab fa-github" src="./img/gato.png"></a>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+
+        <div class="col-12 text-start col-md-4 text-md-center py-4">
+          <h5 class="text-uppercase mb-4 pb-1">Thais Lino</h5>
+
+          <p>
+            Responsável pelo desenvolvimento do footer e pesquisa na documentação de bootstrap para encontrar a solução do projeto proposto.
+          </p>
+          <div class="mt-4">
+            <!-- Linkedin -->
+            <a type="button" class="btn btn-floating btn-lg btn-link" href="https://www.linkedin.com/in/thais-dos-santos-lino-306a5a165/"><img class="fab fa-linkedin" src="./img/in.png"></a>
+            <!-- GitHub -->
+            <a type="button" class="btn btn-floating btn-lg btn-link" href="https://github.com/ThaisSLino"><img class="fab fa-github" src="./img/gato.png"></a>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-12 text-start col-md-4 text-md-end py-4">
+          <h5 class="text-uppercase mb-4">Valéria Gonçalez</h5>
+
+          <p>
+            Responsável pelo desenvolvimento do main e pesquisa na documentação de bootstrap para encontrar a solução do projeto proposto.
+          </p>
+          <div class="mt-4">
+            <!-- Linkedin -->
+            <a type="button" class="btn btn-floating btn-lg" href="https://www.linkedin.com/in/valeriagoncalez/"><img class="fab fa-linkedin" src="./img/in.png"></a>
+            <!-- GitHub -->
+            <a type="button" class="btn btn-floating btn-lg" href="https://github.com/valeriagoncalez/"><img class="fab fa-github" src="./img/gato.png"></a>
+          </div>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      Checkpoint 3 desenvolvido em 2021
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <!-- Fim do Rodapé -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -1,0 +1,46 @@
+:root {
+  --primary: #e51b3e; 
+  --secondary:#33bb69;
+  --success:#198754;
+  --info: #0d6efd;
+  --warning: #dc3545;
+  --danger: #dc3545;
+  --light: #fff;
+  --dark: #343a40;
+  --bs-primary-rgb: 229,27,62 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home-hero {
+  background-image: url(../img/background1490px.png) !important;
+  min-height: calc(100vh - 74px);
+  margin-top: 74px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.btn-outline-secondary {
+    color: var(--light) !important;
+    border-color: var(--secondary) !important;
+}
+.btn-outline-secondary:hover {    
+    background-color: var(--secondary) !important;    
+}
+.btn-secondary {  
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+.rounded-4 {
+  border-radius: .6rem !important;
+}
+.card-img-overlay {
+  padding: 1.6rem !important;
+}
+.text-info-film{
+  color: rgba(0,133,255, .75) !important;
+}
+.scale-hover:hover {
+  transform: scale(1.05);
+}
